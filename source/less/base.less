@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  min-height: 100%;
+  font-family: @font-family-primary;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: midle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: @font-family-secondary;
+}
+
+h1 {
+  font-size: @font-h1-size;
+}
+
+h2 {
+  font-size: @font-h2-size;
+}
+
+h3 {
+  font-size: @font-h3-size;
+}
+
+h4 {
+  font-size: @font-h4-size;
+}
+
+h5 {
+  font-size: @font-h5-size;
+}
+
+h6 {
+  font-size: @font-h6-size;
+}
