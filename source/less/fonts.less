@@ -1,0 +1,12 @@
+.font-include(@font-name, @font-style, @font-weight, @font-file) {
+  @font-face {
+    font-family: @font-name;
+    src: url('../fonts/@{font-file}');
+    font-style: @font-style;
+    font-weight: @font-weight;
+  }
+}
+
+.font-include('Roboto', normal, 400, 'Roboto-Regular.woff2');
+.font-include('Roboto', normal, 700, 'Roboto-Bold.woff2');
+.font-include('Roboto', normal, 900, 'Roboto-Black.woff2');
